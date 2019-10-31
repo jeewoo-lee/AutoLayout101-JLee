@@ -44,7 +44,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHc-8x-ShV" userLabel="Heart">
-                                <rect key="frame" x="0.0" y="376" width="375" height="60"/>
+                                <rect key="frame" x="164" y="376" width="47" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="EHc-8x-ShV" secondAttribute="width" multiplier="1:1" id="xwf-kv-Ase"/>
                                 </constraints>
@@ -60,10 +60,10 @@
                         <constraints>
                             <constraint firstItem="EHc-8x-ShV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EUI-Fn-XoJ"/>
                             <constraint firstItem="22i-en-w2K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Kuy-gt-qgA"/>
-                            <constraint firstItem="EHc-8x-ShV" firstAttribute="leading" secondItem="P2F-mh-jwf" secondAttribute="trailing" constant="30" id="Lue-F2-XvC"/>
+                            <constraint firstItem="EHc-8x-ShV" firstAttribute="leading" secondItem="P2F-mh-jwf" secondAttribute="trailing" constant="8" id="Lue-F2-XvC"/>
                             <constraint firstItem="a8w-NE-oVA" firstAttribute="centerY" secondItem="EHc-8x-ShV" secondAttribute="centerY" id="OuA-Us-oDI"/>
                             <constraint firstItem="EHc-8x-ShV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YEX-J5-QZ2"/>
-                            <constraint firstItem="EHc-8x-ShV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:1" id="ZDt-hk-4R3"/>
+                            <constraint firstItem="EHc-8x-ShV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:8" id="ZDt-hk-4R3"/>
                             <constraint firstItem="a8w-NE-oVA" firstAttribute="leading" secondItem="EHc-8x-ShV" secondAttribute="trailing" constant="31.333333333333343" id="Zuo-Xg-6g9"/>
                             <constraint firstItem="P2F-mh-jwf" firstAttribute="centerY" secondItem="EHc-8x-ShV" secondAttribute="centerY" id="faP-pK-qRE"/>
                             <constraint firstItem="22i-en-w2K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jfx-TM-cWU"/>
