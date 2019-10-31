@@ -160,29 +160,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="trP-2G-jjH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="trP-2G-jjH">
                                 <rect key="frame" x="26" y="44" width="323" height="646"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="6Vd-a1-edJ">
-                                <rect key="frame" x="48" y="713" width="279" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="6Vd-a1-edJ">
+                                <rect key="frame" x="16" y="738" width="343" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmY-sa-4O6">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmY-sa-4O6">
+                                        <rect key="frame" x="0.0" y="0.0" width="77.666666666666671" height="30"/>
                                         <state key="normal" title="Previous"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sms-PB-iz1">
-                                        <rect key="frame" x="133" y="0.0" width="40" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sms-PB-iz1">
+                                        <rect key="frame" x="151.66666666666666" y="0.0" width="40" height="30"/>
                                         <state key="normal" title="Share"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-m4-kZP">
-                                        <rect key="frame" x="247" y="0.0" width="32" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-m4-kZP">
+                                        <rect key="frame" x="265.66666666666669" y="0.0" width="77.333333333333314" height="30"/>
                                         <state key="normal" title="Next"/>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sms-PB-iz1" firstAttribute="centerX" secondItem="mte-nQ-ISN" secondAttribute="centerX" id="1WQ-c0-Pny"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gGg-m4-kZP" secondAttribute="trailing" id="2j5-lj-iVq"/>
+                            <constraint firstItem="trP-2G-jjH" firstAttribute="centerY" secondItem="mte-nQ-ISN" secondAttribute="centerY" id="C2f-7x-big"/>
+                            <constraint firstItem="trP-2G-jjH" firstAttribute="centerX" secondItem="mte-nQ-ISN" secondAttribute="centerX" id="HRx-fl-ALu"/>
+                            <constraint firstItem="6Vd-a1-edJ" firstAttribute="centerX" secondItem="mte-nQ-ISN" secondAttribute="centerX" id="IXy-Dn-oYZ"/>
+                            <constraint firstItem="trP-2G-jjH" firstAttribute="bottom" secondItem="6Vd-a1-edJ" secondAttribute="bottomMargin" constant="-40" id="QfQ-VO-lem"/>
+                            <constraint firstAttribute="trailing" secondItem="trP-2G-jjH" secondAttribute="trailing" constant="26" id="aQn-l2-cB2"/>
+                            <constraint firstItem="trP-2G-jjH" firstAttribute="top" secondItem="wAM-6E-h1p" secondAttribute="bottom" constant="26" id="eyL-CF-ech"/>
+                            <constraint firstItem="SLt-yr-MWG" firstAttribute="top" secondItem="6Vd-a1-edJ" secondAttribute="bottom" constant="10" id="gfH-b4-slR"/>
+                            <constraint firstItem="trP-2G-jjH" firstAttribute="leading" secondItem="mte-nQ-ISN" secondAttribute="leading" constant="26" id="hZ4-ib-fPY"/>
+                            <constraint firstItem="kmY-sa-4O6" firstAttribute="leading" secondItem="mte-nQ-ISN" secondAttribute="leadingMargin" id="oMO-zl-Hc8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xl3-1g-dMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
