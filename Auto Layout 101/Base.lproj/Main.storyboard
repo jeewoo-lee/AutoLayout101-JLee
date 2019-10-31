@@ -114,8 +114,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fEA-5W-LYb" userLabel="Red">
-                                <rect key="frame" x="0.0" y="0.0" width="239" height="451"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEA-5W-LYb" userLabel="Red">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="406"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yx4-Fu-pGg" userLabel="Blue">
@@ -131,14 +131,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="fEA-5W-LYb" firstAttribute="top" secondItem="Scd-pM-whv" secondAttribute="bottom" constant="-44" id="52C-db-8xV"/>
-                            <constraint firstItem="ets-6A-rFn" firstAttribute="top" secondItem="fEA-5W-LYb" secondAttribute="bottom" constant="327" id="9Aw-yK-CpQ"/>
+                            <constraint firstItem="fEA-5W-LYb" firstAttribute="width" secondItem="mYU-8O-VEL" secondAttribute="width" multiplier="2:3" id="7mR-hp-Im2"/>
+                            <constraint firstItem="fEA-5W-LYb" firstAttribute="top" secondItem="mYU-8O-VEL" secondAttribute="top" id="Uwz-LA-okU"/>
+                            <constraint firstItem="fEA-5W-LYb" firstAttribute="leading" secondItem="mYU-8O-VEL" secondAttribute="leading" id="W9w-39-oRu"/>
+                            <constraint firstItem="fEA-5W-LYb" firstAttribute="height" secondItem="mYU-8O-VEL" secondAttribute="height" multiplier="1:2" id="XZi-CX-6DO"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYN-Ib-j4n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="806" y="211"/>
+            <point key="canvasLocation" x="1162" y="250"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wgm-tQ-ALd">
