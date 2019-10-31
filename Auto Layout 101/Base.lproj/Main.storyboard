@@ -118,23 +118,29 @@
                                 <rect key="frame" x="0.0" y="0.0" width="250" height="406"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yx4-Fu-pGg" userLabel="Blue">
-                                <rect key="frame" x="238" y="0.0" width="137" height="451"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yx4-Fu-pGg" userLabel="Blue">
+                                <rect key="frame" x="250" y="0.0" width="125" height="406"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4tm-n4-Cfi" userLabel="Purple">
-                                <rect key="frame" x="0.0" y="449" width="375" height="363"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tm-n4-Cfi" userLabel="Purple">
+                                <rect key="frame" x="0.0" y="406" width="375" height="406"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Yx4-Fu-pGg" firstAttribute="width" secondItem="mYU-8O-VEL" secondAttribute="width" multiplier="1:3" id="37P-z9-Op8"/>
                             <constraint firstItem="fEA-5W-LYb" firstAttribute="width" secondItem="mYU-8O-VEL" secondAttribute="width" multiplier="2:3" id="7mR-hp-Im2"/>
+                            <constraint firstAttribute="trailing" secondItem="Yx4-Fu-pGg" secondAttribute="trailing" id="Bbh-sX-qoy"/>
+                            <constraint firstItem="4tm-n4-Cfi" firstAttribute="height" secondItem="mYU-8O-VEL" secondAttribute="height" multiplier="1:2" id="BsA-LD-N2T"/>
+                            <constraint firstItem="Yx4-Fu-pGg" firstAttribute="height" secondItem="mYU-8O-VEL" secondAttribute="height" multiplier="1:2" id="D8v-Yt-kZg"/>
+                            <constraint firstItem="Yx4-Fu-pGg" firstAttribute="top" secondItem="mYU-8O-VEL" secondAttribute="top" id="LUx-qm-7UW"/>
                             <constraint firstItem="fEA-5W-LYb" firstAttribute="top" secondItem="mYU-8O-VEL" secondAttribute="top" id="Uwz-LA-okU"/>
                             <constraint firstItem="fEA-5W-LYb" firstAttribute="leading" secondItem="mYU-8O-VEL" secondAttribute="leading" id="W9w-39-oRu"/>
+                            <constraint firstItem="4tm-n4-Cfi" firstAttribute="width" secondItem="mYU-8O-VEL" secondAttribute="width" multiplier="1:1" id="Ww7-yV-4Ll"/>
                             <constraint firstItem="fEA-5W-LYb" firstAttribute="height" secondItem="mYU-8O-VEL" secondAttribute="height" multiplier="1:2" id="XZi-CX-6DO"/>
+                            <constraint firstAttribute="bottom" secondItem="4tm-n4-Cfi" secondAttribute="bottom" id="c6i-Io-PP6"/>
+                            <constraint firstItem="4tm-n4-Cfi" firstAttribute="leading" secondItem="mYU-8O-VEL" secondAttribute="leading" id="cJM-Yj-05W"/>
                         </constraints>
                     </view>
                 </viewController>
